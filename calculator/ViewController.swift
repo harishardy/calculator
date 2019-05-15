@@ -173,6 +173,8 @@ class ViewController: UIViewController {
             {
                 labelX1.text = "\(a)"
                 
+                ans = a
+                
             }
                 
             else
