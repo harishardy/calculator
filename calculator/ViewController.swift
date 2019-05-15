@@ -13,9 +13,9 @@ class ViewController: UIViewController {
     
     
     
-    var a = 0
+    var a : Float = 0
     
-    var b = 0
+    var b : Float = 0
     
     var c = ""
     
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     var operationTag : Int = 0
     
-    var ans : Int = 0
+    var ans : Float = 0
     
     var tap = 0
     
@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         operationTag = (sender as AnyObject).tag
         
         
-        a = Int (labelX1.text!)!
+        a = Float (labelX1.text!)!
         
         
         
